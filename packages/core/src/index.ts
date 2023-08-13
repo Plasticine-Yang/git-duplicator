@@ -1,3 +1,1 @@
-export const demo = (name: string) => {
-  console.log(name)
-}
+export { duplicate } from './duplicator'
