@@ -1,0 +1,10 @@
+{
+  "name": "core-playground",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@git-duplicator/core": "workspace:^"
+  }
+}

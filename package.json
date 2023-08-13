@@ -9,6 +9,7 @@
     "lint": "turbo lint",
     "test": "vitest",
     "test:u": "vitest -u",
+    "play:core": "pnpm -C playground/core-playground start",
     "commit": "cz",
     "prepare": "husky install"
   },
