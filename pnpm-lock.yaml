@@ -62,7 +62,17 @@ importers:
 
   packages/bar: {}
 
+  packages/cli: {}
+
+  packages/core:
+    devDependencies:
+      '@git-duplicator/types':
+        specifier: workspace:^
+        version: link:../types
+
   packages/foo: {}
+
+  packages/types: {}
 
 packages:
 
